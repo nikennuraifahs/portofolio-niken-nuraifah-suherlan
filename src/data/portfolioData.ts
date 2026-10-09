@@ -388,5 +388,20 @@ export const certificationsData: CertificationItem[] = [
     year: "2023",
     fileUrl: "/images/certificates/indonesia-ceo-talk-2023.jpg",
     category: "Seminar"
+  },
+    {
+    title: "Indonesia CEO Talk 2023: Urgensi Cybersecurity di Era Transformasi Digital Indonesia",
+    issuer: "ICT-OMG",
+    year: "2023",
+    fileUrl: "/images/certificates/indonesia-ceo-talk-2023.jpg",
+    category: "Seminar"
+  },
+  {
+    title: "TOEFL Certificate",
+    issuer: "NAMA LEMBAGA PENERBIT",
+    year: "TAHUN SERTIFIKAT",
+    fileUrl: "/images/certificates/toefl-certificate.jpg",
+    category: "Sertifikasi"
   }
+];
 ];
