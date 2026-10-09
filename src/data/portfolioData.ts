@@ -159,7 +159,6 @@ export const otherProjects: Project[] = [
     }
   },
  
-  
   {
     id: "katilu-nature-lodge",
     title: "Sistem Booking Web — Katilu Nature Lodge",
@@ -215,7 +214,6 @@ export const otherProjects: Project[] = [
     }
   }
 ];
-
 export const skillCategories: SkillCategory[] = [
   {
     title: "Pemrograman",
