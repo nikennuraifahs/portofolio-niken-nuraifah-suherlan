@@ -54,6 +54,11 @@ export const featuredProject: Project = {
         src: "/images/projects/hortikultura-reliabilitas.jpg",
         title: "Reliabilitas Model",
         description: "Tampilan evaluasi reliabilitas model menggunakan Cronbach's Alpha."
+      },
+      {
+      src: "/images/projects/mangrove-maison-azkies.png",
+      title: "Dokumentasi Project Mangrove",
+      description: "Dokumentasi kegiatan penanaman mangrove bersama komunitas Maison Azkies."
       }
     ],
 
