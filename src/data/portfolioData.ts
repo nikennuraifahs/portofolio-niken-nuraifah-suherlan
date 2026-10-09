@@ -158,42 +158,33 @@ export const otherProjects: Project[] = [
       result: "Hasil pengujian menunjukkan model sentimen memperoleh akurasi 93,07% dengan macro F1-score 80,80%, sedangkan model aspek memperoleh macro F1-score 90,63% dan micro F1-score 91,95%. Performa terbaik pada aspek pelayanan mencapai F1-score 96,52%."
     }
   },
+ 
   {
     id: "katilu-nature-lodge",
     title: "Sistem Booking Web — Katilu Nature Lodge",
     badge: "Project Kelompok",
     technologies: ["Business Analysis", "System Analysis", "UI/UX"],
-    description: "Merancang solusi sistem informasi booking berbasis web untuk membantu proses reservasi, informasi layanan, dan pembayaran.",
-    metrics: [{ label: "Desain", value: "Prototype Figma" }, { label: "Dokumen", value: "Proposal e-business" }],
+    description:
+      "Merancang solusi sistem informasi booking berbasis web untuk membantu proses reservasi, informasi layanan, dan pembayaran.",
     details: {
       role: "Project Kelompok — Analis Sistem & Perancang UI/UX",
-      overview: "Perancangan end-to-end solusi sistem informasi reservasi penginapan (lodge) untuk mempermudah calon tamu mengecek ketersediaan kamar, melakukan pemesanan, dan konfirmasi transaksi.",
+      overview:
+        "Perancangan sistem informasi reservasi penginapan berbasis web.",
       objectives: [
-        "Mengidentifikasi kebutuhan bisnis dan menyusun dokumen use case, activity diagram, serta alur proses reservasi.",
-        "Merancang wireframe dan antarmuka pengguna (UI/UX) yang ramah pengguna untuk alur pemesanan kamar.",
-        "Menyusun spesifikasi fungsional dan non-fungsional sistem informasi booking berbasis web."
+        "Mengidentifikasi kebutuhan bisnis.",
+        "Merancang alur dan antarmuka pemesanan.",
+        "Menyusun rancangan sistem booking."
       ],
       highlights: [
-        "Analisis kebutuhan bisnis dan perancangan use case",
-        "Wireframing dan perancangan antarmuka booking interaktif",
-        "Struktur alur verifikasi ketersediaan dan proses konfirmasi pembayaran"
+        "Analisis kebutuhan bisnis",
+        "Perancangan UI/UX",
+        "Perancangan alur reservasi"
       ],
-
-      // contribution: "Isi 1-2 kalimat spesifik tentang bagian yang kamu kerjakan di project ini",
-      evidence: [
-        { src: "/images/evidence/katilu-nature-lodge-1.jpg", caption: "Prototype UI halaman layanan: Room Only, Room + Breakfast, dan Camping Area." },
-        { src: "/images/evidence/katilu-nature-lodge-2.jpg", caption: "Diagram arsitektur tiga lapisan dengan payment gateway dan layanan notifikasi." }
-      ],
-      links: [
-        { label: "Lihat prototype di Figma", url: "https://www.figma.com/design/mlH2UKSD8fwRWU2SNgfH8E/Katilu-Nature-Lodge?node-id=0-1" },
-        { label: "Dokumen di ResearchGate", url: "https://doi.org/10.13140/RG.2.2.11288.46088" }
-      ],
-      result: "Menghasilkan rancangan sistem informasi booking berbasis web yang mencakup alur reservasi, pengecekan ketersediaan kamar, pemesanan, dan konfirmasi transaksi."
+      result:
+        "Menghasilkan rancangan sistem informasi booking berbasis web."
     }
-  }
-];
-
-{
+  },
+  {
     id: "mangrove-maison-azkies",
     title: "Project Mangrove — Maison Azkies",
     badge: "Project Komunitas",
