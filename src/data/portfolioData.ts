@@ -159,6 +159,7 @@ export const otherProjects: Project[] = [
     }
   },
  
+  
   {
     id: "katilu-nature-lodge",
     title: "Sistem Booking Web — Katilu Nature Lodge",
