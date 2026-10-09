@@ -193,6 +193,29 @@ export const otherProjects: Project[] = [
   }
 ];
 
+{
+id: "mangrove-maison-azkies",
+title: "Project Mangrove — Maison Azkies",
+badge: "Project Komunitas",
+technologies: ["Project Management", "Community Engagement", "Environmental Conservation"],
+description: "Mengkoordinasikan project komunitas Maison Azkies yang berfokus pada kegiatan penanaman mangrove sebagai bentuk partisipasi dalam pelestarian lingkungan.",
+details: {
+role: "Koordinator Project",
+overview: "Project komunitas Maison Azkies yang berfokus pada kegiatan penanaman mangrove dan kepedulian terhadap kelestarian lingkungan pesisir.",
+objectives: [
+"Mengkoordinasikan pelaksanaan kegiatan penanaman mangrove.",
+"Mendukung kolaborasi dan partisipasi anggota komunitas dalam kegiatan lingkungan.",
+"Mendorong kepedulian terhadap pelestarian ekosistem mangrove."
+],
+highlights: [
+"Koordinasi project dan kegiatan komunitas",
+"Partisipasi dalam upaya pelestarian lingkungan",
+"Kolaborasi anggota dalam kegiatan penanaman mangrove"
+],
+result: "Project komunitas yang mendukung partisipasi dalam pelestarian lingkungan melalui kegiatan penanaman mangrove."
+}
+},
+
 export const skillCategories: SkillCategory[] = [
   {
     title: "Pemrograman",
