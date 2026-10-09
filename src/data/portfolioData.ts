@@ -404,4 +404,3 @@ export const certificationsData: CertificationItem[] = [
     category: "Sertifikasi"
   }
 ];
-];
