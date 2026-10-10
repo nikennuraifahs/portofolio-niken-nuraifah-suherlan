@@ -7,7 +7,7 @@ export default function EducationCertifications() {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [activeFilter, setActiveFilter] = useState('Semua');
 
-  const filters = ['Semua', 'Sertifikasi', 'Pelatihan', 'Workshop', 'Seminar'];
+  const filters = ['Semua', 'Sertifikasi', 'Pelatihan', 'Workshop', 'Seminar', 'Kegiatan'];
 
   const filteredCertificates = useMemo(() => {
     if (activeFilter === 'Semua') return certificationsData;
