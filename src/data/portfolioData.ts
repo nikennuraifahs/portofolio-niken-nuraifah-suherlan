@@ -34,7 +34,7 @@ export const featuredProject: Project = {
       "Penyusunan alur analisis kebutuhan sistem dan dokumentasi ilmiah skripsi"
     ],
 
-       images: [
+    images: [
       {
         src: "/images/projects/hortikultura-dashboard.jpg",
         title: "Dashboard Agro-LSTM Predictor",
@@ -54,17 +54,6 @@ export const featuredProject: Project = {
         src: "/images/projects/hortikultura-reliabilitas.jpg",
         title: "Reliabilitas Model",
         description: "Tampilan evaluasi reliabilitas model menggunakan Cronbach's Alpha."
-      }
-    ], 
-          evidence: [
-        { src: "/images/evidence/mangrove-maison-azkies-1.jpg", caption: "Dokumentasi kegiatan penanaman mangrove bersama komunitas Maison Azkies." }
-      ],
-      result:
-        "Project komunitas yang mendukung partisipasi dalam pelestarian lingkungan melalui kegiatan penanaman mangrove."
-    {
-      src: "/images/projects/mangrove-maison-azkies.png",
-      title: "Dokumentasi Project Mangrove",
-      description: "Dokumentasi kegiatan penanaman mangrove bersama komunitas Maison Azkies."
       }
     ],
 
@@ -122,9 +111,7 @@ export const otherProjects: Project[] = [
       ],
       highlights: [
         "Komparasi 5 algoritma: Logistic Regression, Decision Tree, Random Forest, Naive Bayes, dan KNN",
-
         "Eksplorasi visual dan analisis matriks kebingungan (confusion matrix)",
-
         "Penyusunan rekomendasi algoritma klasifikasi terbaik berdasarkan evaluasi"
       ],
 
@@ -169,7 +156,7 @@ export const otherProjects: Project[] = [
       result: "Hasil pengujian menunjukkan model sentimen memperoleh akurasi 93,07% dengan macro F1-score 80,80%, sedangkan model aspek memperoleh macro F1-score 90,63% dan micro F1-score 91,95%. Performa terbaik pada aspek pelayanan mencapai F1-score 96,52%."
     }
   },
- 
+
   {
     id: "katilu-nature-lodge",
     title: "Sistem Booking Web — Katilu Nature Lodge",
@@ -220,11 +207,15 @@ export const otherProjects: Project[] = [
         "Partisipasi dalam upaya pelestarian lingkungan",
         "Kolaborasi anggota dalam kegiatan penanaman mangrove"
       ],
+      evidence: [
+        { src: "/images/projects/mangrove-maison-azkies.jpg", caption: "Sertifikat penanaman 1.000 bibit mangrove di Pulau Kongsi dari Balai Riset Perikanan Laut, Kementerian Kelautan dan Perikanan (19 September 2026)." }
+      ],
       result:
-        "Project komunitas yang mendukung partisipasi dalam pelestarian lingkungan melalui kegiatan penanaman mangrove."
+        "Project komunitas yang mendukung partisipasi dalam pelestarian lingkungan melalui kegiatan penanaman mangrove, dibuktikan dengan sertifikat penanaman 1.000 bibit mangrove di Pulau Kongsi pada 19 September 2026."
     }
   }
 ];
+
 export const skillCategories: SkillCategory[] = [
   {
     title: "Pemrograman",
@@ -398,11 +389,19 @@ export const certificationsData: CertificationItem[] = [
     fileUrl: "/images/certificates/indonesia-ceo-talk-2023.jpg",
     category: "Seminar"
   },
+
   {
-    title: "TOEFL Certificate",
-    issuer: "NAMA LEMBAGA PENERBIT",
-    year: "TAHUN SERTIFIKAT",
-    fileUrl: "/images/certificates/toefl-certificate.jpg",
+    title: "Golden English Proficiency Test (GE-EPT) — Skor 547",
+    issuer: "Golden English",
+    year: "Oktober 2026",
+    fileUrl: "/images/certificates/TOEFL_PREDIC_NIKEN_page-0001.jpg",
     category: "Sertifikasi"
+  },
+  {
+    title: "Penanaman 1.000 Bibit Mangrove di Pulau Kongsi",
+    issuer: "Balai Riset Perikanan Laut — Kementerian Kelautan dan Perikanan",
+    year: "September 2026",
+    fileUrl: "/images/projects/mangrove-maison-azkies.jpg",
+    category: "Pelatihan"
   }
 ];
