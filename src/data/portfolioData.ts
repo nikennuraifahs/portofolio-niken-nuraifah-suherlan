@@ -402,6 +402,6 @@ export const certificationsData: CertificationItem[] = [
     issuer: "Balai Riset Perikanan Laut — Kementerian Kelautan dan Perikanan",
     year: "September 2026",
     fileUrl: "/images/projects/mangrove-maison-azkies.jpg",
-    category: "Pelatihan"
+    category: "Kegiatan"
   }
 ];
