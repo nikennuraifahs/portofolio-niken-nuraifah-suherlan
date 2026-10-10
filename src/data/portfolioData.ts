@@ -34,7 +34,7 @@ export const featuredProject: Project = {
       "Penyusunan alur analisis kebutuhan sistem dan dokumentasi ilmiah skripsi"
     ],
 
-    images: [
+       images: [
       {
         src: "/images/projects/hortikultura-dashboard.jpg",
         title: "Dashboard Agro-LSTM Predictor",
@@ -54,8 +54,14 @@ export const featuredProject: Project = {
         src: "/images/projects/hortikultura-reliabilitas.jpg",
         title: "Reliabilitas Model",
         description: "Tampilan evaluasi reliabilitas model menggunakan Cronbach's Alpha."
-      },
-      {
+      }
+    ], 
+          evidence: [
+        { src: "/images/evidence/mangrove-maison-azkies-1.jpg", caption: "Dokumentasi kegiatan penanaman mangrove bersama komunitas Maison Azkies." }
+      ],
+      result:
+        "Project komunitas yang mendukung partisipasi dalam pelestarian lingkungan melalui kegiatan penanaman mangrove."
+    {
       src: "/images/projects/mangrove-maison-azkies.png",
       title: "Dokumentasi Project Mangrove",
       description: "Dokumentasi kegiatan penanaman mangrove bersama komunitas Maison Azkies."
